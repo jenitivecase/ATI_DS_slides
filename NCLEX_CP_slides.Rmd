@@ -246,13 +246,11 @@ background-size: contain
 
 class: center, middle
 
-#Assess Impact
+#Assess Impact:
 
-&nbsp;
-&nbsp;
 
-.large[
-[PoP Impact Dashboard](http://10.200.128.53:3838/Expectancy_table_impact/)
+.xxlarge[
+[RN PoP Impact Dashboard](http://10.200.128.53:3838/Expectancy_table_impact/)
 ]
 
 ---
