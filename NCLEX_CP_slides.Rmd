@@ -1,0 +1,229 @@
+---
+title: "NCLEX Prediction with the Comprehensive Predictor" 
+author: "Jennifer Brussow"
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: [xaringan-themer.css,custom.css]
+    nature:
+      highlightStyle: duo
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: "macros.js"
+    seal: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r xaringan-themer, include=FALSE}
+library(xaringanthemer)
+duo(
+  primary_color = "#E53935",
+  secondary_color = "#80D8FF",
+  text_color = choose_dark_or_light("#000000", "#FFFFFF"),
+  text_bold_color = choose_dark_or_light("#000000", "#FFFFFF"),
+  inverse_text_color = "#000000",
+  header_font_google = google_font("Merriweather", "600"),
+  text_font_google   = google_font("Merriweather", "300", "300i"),
+  code_font_family = "Fira Code",
+  code_font_url    = "https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css"
+)
+
+
+
+```
+
+background-image: url(/ATI_23.png)
+background-position: center
+background-size: contain
+
+class: center, middle
+
+.center[![:scale 20%](/ati_logo.png)]
+
+&nbsp;
+
+##NCLEX Outcome Prediction
+
+.large[
+Jennifer Brussow | May 2019
+]
+`r icon::fa('link')` &nbsp; [www.jenniferbrussow.com](http://www.jenniferbrussow.com)
+
+`r icon::fa('envelope')` &nbsp; [jbrussow@gmail.com](mailto:jbrussow@gmail.com)
+
+`r icon::fa('github')` &nbsp; [jenitivecase](http://github.com/jenitivecase)
+
+`r icon::fa('twitter')` &nbsp; [@jenitive_case](https://twitter.com/jenitive_case)
+
+
+---
+class: center, middle
+
+.xlarge[
+This presentation:
+
+http://jb-ati-ds.netlify.com
+]
+
+---
+
+# A bit about me
+
+.large[
+`r icon::fa('calendar-check')` &nbsp; Seven years of experience in data-focused roles
+
+`r icon::fa('graduation-cap')` &nbsp; Ph.D. in Research, Evaluation, Measurement, and Statistics
+
+`r icon::fa('chart-line')` &nbsp; Experienced in building and deploying predictive models
+
+`r icon::fa('search')` &nbsp; Research leader: project design, execution, analysis, and reporting
+
+`r icon::fa('database')` &nbsp; Expert at querying, cleaning, and transforming datasets
+
+`r icon::fa('chart-line')` &nbsp; Focused on providing clear, honest data visualizations
+]
+
+---
+
+# Past Problem Solving
+
+.large[
+- Developed and deployed algorithms to predict NHA learners' probability of passing their certification exams
+
+- Designed and spearheaded data collection efforts to link ATI's flagship assessment, the Comprehensive Predictor, to NCLEX success
+
+- Published peer-reviewed articles and internal whitepapers on a variety of subjects including:
+  + Predictive relationships between assessments
+  + The impact of assessment retakes, and 
+  + The process and ethics of model development
+
+
+]
+
+---
+
+class: center, middle
+
+# Predicting NCLEX Outcomes with the ATI Comprehensive Predictor
+
+---
+
+
+class: inverse
+
+# The problem:
+
+.xlarge[
+- No process was in place to consistently collect NCLEX pass/fail data from students
+
+- Most recent studies on CP validity were out of date with small samples
+  + RN: 2013, N = 947
+  + PN: 2014, N = 337
+]
+
+---
+
+class: inverse
+
+# Main issues:
+
+.xlarge[
+- Data quality
+
+- Representativeness of sample
+
+- Ability to match NCLEX outcome data back to CP scores
+]
+
+---
+
+
+#Past efforts:
+
+.large[
+- Spring 2017: Survey included at end of CP to get student consent
+
+- Institutions contacted to provide data on their students
+
+- Low response rates & difficulty matching records
+
+- Only Q2 testers - not representative
+
+- Just 316 records collected
+]
+
+---
+
+class: inverse, middle
+
+# My solution:
+
+.xxlarge[
+Step 1: Attach survey to end of Comprehensive Predictor
+]
+
+.xlarge[
+- Opt in or out of data collection & provide email
+
+- Data stored in database
+]
+
+---
+
+class: inverse, middle
+
+# My solution:
+
+.xxlarge[
+Step 2: Query to get a list of those who opted in
+]
+
+.xlarge[
+- Filter based on date
+
+- Clean data & format for Qualtrics upload
+]
+
+---
+
+class: inverse
+
+# My solution:
+
+.xxlarge[
+Step 3: Single-question follow-up via Qualtrics
+]
+
+.xlarge[
+- Yes/No/Not yet taken
+
+- Embedded in email - just one click!
+
+- Incentivized to drive response rate
+]
+
+
+---
+
+class: center, middle
+
+background-image: url(./data_bkg.png)
+
+# Thanks!
+
+
+.small[
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+]
+
+&nbsp;
+
+.center[![:scale 25%](/ati_logo.png)]
+
+???
+That's all I've got for today!
+
