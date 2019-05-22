@@ -226,6 +226,37 @@ background-size: contain
 
 ---
 
+# Creating the expectancy table
+
+.xlarge[
+- Data integration via Qualtrics API
+
+- Pull dataset, resample, estimate logistic regression
+
+- Output: Expectancy table, formatted report with information
+]
+
+---
+
+background-image: url(/logreg_plot.png)
+background-position: center
+background-size: contain
+
+---
+
+class: center, middle
+
+#Assess Impact
+
+&nbsp;
+&nbsp;
+
+.large[
+[PoP Impact Dashboard](http://10.200.128.53:3838/Expectancy_table_impact/)
+]
+
+---
+
 class: center, middle
 
 background-image: url(./data_bkg.png)
