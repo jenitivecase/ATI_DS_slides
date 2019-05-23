@@ -94,7 +94,7 @@ http://jb-ati-ds.netlify.com
 # Past Problem Solving
 
 .xlarge[
-`r icon::fa('question')` &nbsp; Can we implement a model similar to Pulse for NHA certification exams?
+`r icon::fa('question')` &nbsp; Can we implement a predictive model similar to Pulse for NHA certification exams?
 
 `r icon::fa('check')` &nbsp; Developed and deployed algorithms to predict  learners' probability of passing
 ]
@@ -110,7 +110,7 @@ http://jb-ati-ds.netlify.com
 ]
 .large[
 - Predictive relationships between assessments,
-- The impact of assessment retakes, 
+- The impact of assessment retakes, and
 - The process and ethics of model development
 ]
 
@@ -119,7 +119,7 @@ http://jb-ati-ds.netlify.com
 # Past Problem Solving
 
 .xlarge[
-`r icon::fa('question')` &nbsp; Is the Comprehensive Predictor accurate and valid?
+`r icon::fa('question')` &nbsp; Is the Comprehensive Predictor accurate and valid for predicting NCLEX success?
 
 `r icon::fa('check')` &nbsp; Designed and spearheaded data collection and analysis efforts
 ]
@@ -128,7 +128,7 @@ http://jb-ati-ds.netlify.com
 
 class: center, middle
 
-# Predicting NCLEX Outcomes with the ATI Comprehensive Predictor
+# Is the Comprehensive Predictor accurate and valid for predicting NCLEX success?
 
 ---
 
@@ -173,7 +173,7 @@ class: inverse
 
 - Only Q2 testers - not representative
 
-- Just 316 records collected
+- Just 316 records collected - 2.6% response rate from 12,031 students who opted in
 ]
 
 ---
@@ -233,6 +233,8 @@ Step 3: Single-question follow-up via Qualtrics
 .xlarge[
 - 49.6% response rate (!)
 
+- 23,141 total responses
+
 - 8,095 Y/N responses
 
 - 3,141 after resampling
@@ -253,7 +255,7 @@ background-size: contain
 
 - Pull dataset, resample, estimate logistic regression
 
-- Output: Expectancy table, formatted report with information
+- Output: Expectancy table, formatted research report with information
 ]
 
 ---
@@ -270,7 +272,7 @@ class: center, middle
 
 
 .xxlarge[
-[RN PoP Impact Dashboard](http://10.200.128.53:3838/Expectancy_table_impact/)
+[**RN PoP Impact Dashboard**](http://10.200.128.53:3838/Expectancy_table_impact/)
 ]
 
 ---
