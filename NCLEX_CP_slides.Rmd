@@ -74,34 +74,54 @@ http://jb-ati-ds.netlify.com
 # A bit about me
 
 .large[
-`r icon::fa('calendar-check')` &nbsp; Seven years of experience in data-focused roles
-
-`r icon::fa('graduation-cap')` &nbsp; Ph.D. in Research, Evaluation, Measurement, and Statistics
+`r icon::fa('cogs')` &nbsp;Clear communication to answer business questions
 
 `r icon::fa('chart-line')` &nbsp; Experienced in building and deploying predictive models
 
 `r icon::fa('search')` &nbsp; Research leader: project design, execution, analysis, and reporting
 
-`r icon::fa('database')` &nbsp; Expert at querying, cleaning, and transforming datasets
+`r icon::fa('database')` &nbsp; Expert at pulling, cleaning, and transforming datasets
 
 `r icon::fa('chart-line')` &nbsp; Focused on providing clear, honest data visualizations
+
+`r icon::fa('calendar-check')` &nbsp; Seven years of experience in data-focused roles
+
+`r icon::fa('graduation-cap')` &nbsp; Ph.D. in Research, Evaluation, Measurement, and Statistics
 ]
 
 ---
 
 # Past Problem Solving
 
+.xlarge[
+`r icon::fa('question')` &nbsp; Can we implement a model similar to Pulse for NHA certification exams?
+
+`r icon::fa('check')` &nbsp; Developed and deployed algorithms to predict  learners' probability of passing
+]
+
+---
+
+# Past Problem Solving
+
+.xlarge[
+`r icon::fa('question')` &nbsp; How can we communicate our products' value to sales and clients?
+
+`r icon::fa('check')` &nbsp; Authored articles and internal whitepapers on a variety of subjects, including:
+]
 .large[
-- Developed and deployed algorithms to predict NHA learners' probability of passing their certification exams
+- Predictive relationships between assessments,
+- The impact of assessment retakes, 
+- The process and ethics of model development
+]
 
-- Designed and spearheaded data collection efforts to link ATI's flagship assessment, the Comprehensive Predictor, to NCLEX success
+---
 
-- Published peer-reviewed articles and internal whitepapers on a variety of subjects including:
-  + Predictive relationships between assessments
-  + The impact of assessment retakes, and 
-  + The process and ethics of model development
+# Past Problem Solving
 
+.xlarge[
+`r icon::fa('question')` &nbsp; Is the Comprehensive Predictor accurate and valid?
 
+`r icon::fa('check')` &nbsp; Designed and spearheaded data collection and analysis efforts
 ]
 
 ---
